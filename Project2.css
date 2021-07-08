@@ -1,0 +1,55 @@
+*{
+    margin: 0 auto;
+    max-width: 1440px;
+
+
+}
+
+body{
+    padding:5%;
+    width: 90%;
+    height: 50%;
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Inter', 'sans-serif';
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container{
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(244, 38%, 16%);
+    border-radius:10px 10px 10px 10px;
+}
+
+
+.left{
+    width: 30%;
+    height: 200px;
+    padding: 20px;
+
+}
+
+span{
+    color: purple;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.image{
+    background-image: url(./image-header-desktop.jpg);
+    height: 370px;
+    width: 59%;
+    background-size: cover;
+    background-position:center ;
+    margin-left: 6%;
+    z-index: 1;
+}
